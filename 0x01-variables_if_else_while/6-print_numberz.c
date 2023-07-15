@@ -6,16 +6,12 @@
  */
 int main(void)
 {
-	putchar('0' + 0);
-	putchar('1' + 0);
-	putchar('2' + 0);
-	putchar('3' + 0);
-	putchar('4' + 0);
-	putchar('5' + 0);
-	putchar('6' + 0);
-	putchar('7' + 0);
-	putchar('8' + 0);
-	putchar('9' + 0);
+	int n;
+
+	for (n = 0; n <= 9; n++)
+	{
+		putchar(n + 48);
+	}
 	putchar('\n');
 	return (0);
 }
